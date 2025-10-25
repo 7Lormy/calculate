@@ -47,13 +47,9 @@ def main():
         except CalculatorError as e:
             print(e)
 
-        except KeyboardInterrupt:
-            print("\n\nПрограмма прервана пользователем. До свидания!")
-            break
-
-        except Exception as e:
-            print("Неожиданная ошибка:", e)
+    
 
 
 if __name__ == "__main__":
+
     main()
